@@ -6,13 +6,20 @@ let messageOutput = document.querySelector('#messageOutput')
 let menssageEncripted = ''
 let menssageDencripted = ''
 
+const copy = () => {
+    var copyText = document.getElementById('text')
+    copyText.select();
+    document.execCommand('copy');
+    alert("Texto copiado!");
+}
+
 criptografar.addEventListener("click", function() {
         menssageEncripted = messageInputed.value.replace(/e/, "enter").replace(/i/, "imes").replace(/a/, "ai").replace(/o/, "ober").replace(/u/, "ufat")
     
     if (menssageEncripted == false) {
         alert('Digite uma mensagem a ser criptografada')
     } else {
-        output.innerHTML = '<textarea id="messageOutput" cols="">' + menssageEncripted + '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
+        output.innerHTML = '<textarea id="messageOutput" cols="">' + menssageEncripted + '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copy()">Copiar</button>'
         output.style.justifyContent = 'space-between'
     }
 })
