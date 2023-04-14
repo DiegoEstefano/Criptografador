@@ -32,6 +32,7 @@
         height: 50vh;
         justify-content: center;
         flex-direction: column;
+        margin-bottom:0.5rem;
     }
 
     .buttons {
