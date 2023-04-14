@@ -4,3 +4,5 @@ Nele é possivel escrever uma mensagem criptografada e descriptografar qualquer 
 
 [Clique aqui para acessar
 ](https://diegoestefano.github.io/Criptografador/)
+
+<div align="center"> <img src="<img width="930" alt="1" src="https://user-images.githubusercontent.com/81423690/232114957-376b2c1e-7534-4eed-8999-aba537ac6155.png">g"  /> </div>
