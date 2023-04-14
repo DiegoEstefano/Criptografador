@@ -13,6 +13,7 @@
     .logo {
         margin: 0 auto;
         height: 10vh;
+       text-align: left;
     }
     .container-input {
         margin: 0 auto;
