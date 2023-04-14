@@ -1,0 +1,51 @@
+@media (max-width: 1000px) {
+
+    * {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .main-container {
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+    .logo {
+        margin: 0 auto;
+        height: 10vh;
+    }
+    .container-input {
+        margin: 0 auto;
+        width: 80vw;
+        height: 60vh;
+        font-size: 2rem;
+    }
+
+    .container-input textarea {
+        width: 80vw;
+    }
+  
+    .container-output {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 80vw;
+        height: 50vh;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .container-output textarea {
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
+        border-radius: 32px;
+        height: 40vh;
+        min-width:20px;
+        width: 80vw;
+    }
+
+}
+

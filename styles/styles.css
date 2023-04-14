@@ -1,0 +1,167 @@
+/* -----------------------importação de fonte Inter ------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* -----------------------Resete CSS ------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+textarea {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+/* -----------------------Logo A ------------------------------- */
+.logo img {
+    margin-top: 30px;
+    margin-bottom: 2rem;
+    width: 25px;
+    height: 35px;
+
+}
+
+
+/* -----------------------Estilização de container principal ------------------------------- */
+
+.main-container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* -----------------------Container de input de menssagens ------------------------------- */
+.container-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    margin-left: 10rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.container-input textarea {
+    padding-top: 5rem;
+    height: 70vh;
+    width: 500px;
+    font-size: 18px;
+    background-color: transparent;
+    font-weight: 400;
+    color: #0A3871;
+    outline: none;
+  
+}
+
+
+
+/* -----------------------Container output de menssagens criptografadas ------------------------------- */
+
+.container-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 90vh;
+    border-radius: 32px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 2rem;
+
+}
+
+.container-output textarea {
+    height: 70vh;
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 32px;
+}
+
+.container-output img {
+    width: 200px;
+    margin-bottom: 2rem;
+
+}
+
+.container-output p {
+    font-weight: bold;
+}
+
+.container-output span {
+    font-size: 0.6rem;
+}
+
+
+/* -----------------------Div com menssagem de aviso para letras minusculas ------------------------------- */
+
+.div-information {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+
+.div-information img {
+    width: 11px;
+    margin-right: 0.3rem;
+}
+
+#menssage {
+    font-size: 0.7rem;
+}
+
+
+/* -----------------------Estilização dos botões------------------------------- */
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.buttons :nth-child(1) {
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+.buttons :nth-child(2) {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: none;
+}
+
+button {
+    background-color: transparent;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+}
+
