@@ -32,6 +32,7 @@
         height: 50vh;
         justify-content: center;
         flex-direction: column;
+       margin-bottom: 1rem;
     }
 
     .buttons {
@@ -46,7 +47,9 @@
         min-width:20px;
         width: 80vw;
     }
-
+  .div-information p{   
+        margin-left: 0.2rem ;
+    }
     
 #balaoAlerta {
     top: 20%;
